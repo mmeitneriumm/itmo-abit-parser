@@ -76,4 +76,4 @@ def refresh():
                            valid_elements_count=valid_elements_count)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
